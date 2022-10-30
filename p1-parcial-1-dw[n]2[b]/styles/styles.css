@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}    
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.contenedor{
+    width: 100%;
+    margin:0 auto;
+    padding: 2em;
+    max-width: 1280px;
+}
+
+.barra{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    border-radius: 50px;
+    padding: 1em;
+    background: #d1e0ff;
+    box-shadow:  5px 5px 10px #b2bed9,
+                -5px -5px 10px #f0ffff;
+    min-width: 435px;
+}
+
+h1{
+    margin-left: 1.1em;
+    margin-right: 2em;
+    color: rgb(32, 32, 32);
+
+
+}
+.botones{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.boton{
+        margin:0.5em;
+        width: 50px;
+        height: 50px;
+        margin-right: 2em;
+        border-radius: 50%;
+        background: linear-gradient(145deg, #afc3e6, #d0e8ff);
+        box-shadow:  13px 13px 25px #9db0cf,
+                     -13px -13px 25px #e7ffff;    
+
+        overflow: hidden;
+}
+
+.cargar a{
+
+    display: block;
+    text-indent: 8000px;
+    width: 50px;
+    height: 50px;
+
+    background-image: url("../img/agregar.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.mostrar a{
+    display: block;
+    text-indent: 8000px;
+    width: 50px;
+    height: 50px;
+    
+    background-image: url("../img/expandir.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.resetear a{
+    display: block;
+    text-indent: 8000px;
+    width: 50px;
+    height: 50px;
+    
+    background-image: url("../img/refrescar.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.buscar a{
+    display: block;
+    text-indent: 8000px;
+    width: 50px;
+    height: 50px;
+    
+    background-image: url("../img/buscar.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.info{
+    position: relative;
+}
+
+.info a{
+    display: block;
+    text-indent: 8000px;
+    width: 50px;
+    height: 50px;
+    
+    background-image: url("../img/info.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.estadistica a{
+    display: block;
+    text-indent: 8000px;
+    width: 50px;
+    height: 50px;
+    
+    background-image: url("../img/estadistica.png");
+    background-size: 18px 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ocultar a{
+    display: block;
+    text-indent: 8000px;
+    width: 50px;
+    height: 50px;
+    
+    background-image: url("../img/expandir.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+
+}
+
+.notificacion{
+    position: relative;
+}
+
+.alerta{
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.discos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em 0;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.disco{
+    width:20em;
+    padding: 0 1em;
+    margin: 2em;
+    border-radius: 50px;
+    background: #d1e0ff;
+    box-shadow:  5px 5px 10px #b2bed9,
+                -5px -5px 10px #f0ffff;
+                
+    position: relative;
+}
+
+
+.discoimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 2em auto 0 auto;
+    box-shadow:  5px 5px 10px #b2bed9,
+    -5px -5px 10px #b2bed9;
+    padding: 0.6em;
+}
+
+.nombre{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.autor{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.codigo{
+    position: absolute;
+    font-size: 2em;
+    top: 15px;
+    left:260px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin:1em;
+    padding: 1em;
+    border-radius: 25px;
+    background: #d1e0ff;
+    box-shadow:  5px 5px 10px #b2bed9,
+                -5px -5px 10px #f0ffff;
+    text-align: left;
+}
+.duracion{
+    margin-left: 5px;
+}
+.largo{
+    color: red;
+
+}
+.mas-largo{
+    color: white;
+    background-color: red;
+    border-radius: 10%;
+}
+.contenedor-datos{
+    padding: 1em;
+}
+.datos-cursada{
+    box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.363);
+    -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.226);
+    -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.322);
+    border-radius: 2em;
+    width: 11em;
+    padding: 1.5em;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    display: none;
+    z-index: 100;
+
+
+}
+
+.datos-estadistica{
+    box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.363);
+    -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.226);
+    -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.322);
+    border-radius: 2em;
+    width: 15em;
+    padding: 1.5em;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    display: none;
+    z-index: 100;
+
+
+}
+
+.pistas{
+    position: absolute;
+    top: 325px;
+    left: 35px;
+}
+
+hr{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ultimo-dato{
+    margin-bottom: 1em;
+}
+
+.editar{
+    border-radius: 50%;
+    box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.363);
+    -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.226);
+    -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.322);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 180px;
+    left: 210px;
+
+}
+
+@media (max-width: 841px) {
+    .datos-cursada{
+        top: 196px;
+    }
+    .datos-estadistica{
+        top: 196px;
+    }
+}
+
+@media (max-width: 571px) {
+    .datos-cursada{
+        top: 262px;
+    }
+    .datos-estadistica{
+        top: 262px;
+    }
+}

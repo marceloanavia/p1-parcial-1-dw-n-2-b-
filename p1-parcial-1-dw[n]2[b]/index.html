@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Funciones: Ejercicio 3</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="img/favicon.ico">
+  </head>
+  <body>
+    <div class="contenedor">
+      <header class="barra">
+
+            <h1>Discos</h1>
+        
+         <div class="botones">
+            <div class="boton cargar"><a onclick="cargarDisco()">cargar</a></div>
+            <div class="notificacion"><div class="alerta"></div></div>
+            <div class="switch"><div class="boton mostrar"><a onclick="mostrar(), cambiarIcono()">mostrar</a></div></div>
+            <!--<div class="switch"><div class="boton ocultar"><a onclick="ocultar(), cambiarIcono()">ocultar</a></div></div>-->
+            <div class="boton resetear"><a onclick="resetearAlerta()">refrescar</a></div>
+            <div class="boton buscar"><a onclick="buscar()">buscar</a></div>
+            <div class="boton estadistica"><a onclick="estadistica()">estadística</a></div>
+            <div class="datos-estadistica"></div>
+            <div class="boton info"><a onclick="datos()">información</a><div class="contenedor-cursada"></div></div>
+            <div class="datos-cursada"></div>
+            
+          </div>
+      </header>
+      <main>
+
+      <div class="discos">
+      </div>
+      </div>
+    </main>
+      <script src="js/index.js"></script>
+      <script src="js/funciones.js"></script>
+      <script src="js/validaciones.js"></script>
+      <script src="js/dom.js"></script>
+  </body>
+</html>
